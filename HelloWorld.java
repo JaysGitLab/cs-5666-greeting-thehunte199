@@ -5,7 +5,9 @@ public class HelloWorld {
     if (args.length > 0){
         name = args[0];
     }
-    System.out.println("Hello " + name);
+    String capName = name.substring(0, 1).toUpperCase() + name.substring(1);
+    System.out.println("Helloo, " + capName);
+    
 }
 
 }
